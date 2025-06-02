@@ -10,11 +10,11 @@ const LoginForm = () => {
                 <p className="loginLink">Already have a Member?<a href="login">Log in</a></p>
                 <div className="mainForm">
                     <div className="name">
-                        <input type="text" placeholder="First name" ></input>
-                        <input type="text" placeholder="Last Name"></input>
+                        <input type="text" placeholder="First name" value="Michel" readOnly></input>
+                        <input type="text" placeholder="Last Name" value="Masiak" readOnly></input>
                     </div>
                     <div className="mailPw">
-                        <input type="email" placeholder="Enter your mail address"></input>
+                        <input type="email" placeholder="Enter your mail address" value="michel.masiak@anywhere.co" readOnly></input>
                         <input type="password" placeholder="Enter your Password"></input>
                     </div>
                     <div className="buttons">
