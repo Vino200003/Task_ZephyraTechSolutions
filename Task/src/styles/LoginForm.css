@@ -83,23 +83,25 @@ input:focus {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   margin-top: 10px;
+  
+  
 }
 
 .changeMd {
   padding: 15px;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
-  background-color: #f8fafc;
+  background-color:rgb(228, 232, 234);
   color: #64748b;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.2s;
+  border-radius: 80px;
 }
 
 button.createAcc {
   padding: 15px;
   border: none;
-  border-radius: 8px;
   background-color: #1d9bf0;
   color: white;
   cursor: pointer;
@@ -109,20 +111,3 @@ button.createAcc {
   transition: all 0.2s;
 }
 
-button:hover {
-  opacity: 0.9;
-}
-
-@media (max-width: 600px) {
-  .name {
-    grid-template-columns: 1fr;
-  }
-  
-  .buttons {
-    grid-template-columns: 1fr;
-  }
-  
-  .formContent {
-    padding: 30px 20px;
-  }
-}
