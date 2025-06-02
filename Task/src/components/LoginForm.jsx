@@ -17,6 +17,10 @@ const LoginForm = () => {
                         <input type="email" placeholder="Enter your mail address"></input>
                         <input type="password" placeholder="Enter your Password"></input>
                     </div>
+                    <div className="buttons">
+                        <button className="changeMd">Change Method</button>
+                        <button className="createAcc">Create Account</button>
+                    </div>
                 </div>
             </div>
         </div>
