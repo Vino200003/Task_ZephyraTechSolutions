@@ -78,6 +78,10 @@ input:focus {
   border-color: #1d9bf0;
 }
 
+input[readonly] {
+  font-weight: bold;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
