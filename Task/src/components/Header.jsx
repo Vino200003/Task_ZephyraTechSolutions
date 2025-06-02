@@ -6,12 +6,12 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <div className="logo-circle"></div>
-        <span>Anywhere app.</span>
+        <span className='logo-text'>Anywhere app.</span>
       </div>
-      <nav className="navigation">
+      <nav className="nav">
         <ul>
-          <li><a href="#home" className='active'>Home</a></li>
-          <li><a href="#Join" className="active">Join</a></li>
+          <li><a href="#home" >Home</a></li>
+          <li><a href="#Join" >Join</a></li>
         </ul>
       </nav>
     </header>
